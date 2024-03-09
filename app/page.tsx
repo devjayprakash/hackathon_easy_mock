@@ -7,10 +7,10 @@ export default function Home() {
     <div className="container min-h-screen mx-auto">
       <div className="h-screen flex items-center p-4 flex-col-reverse md:flex-row gap-6  justify-center">
         <div className="w-full md:w-1/2 text-center">
-          <h1 className="text-5xl font-bold">
+          <h1 className="md:text-5xl text-3xl font-bold">
             Welcome to <span className="text-violet-700">Easy Papers</span>
           </h1>
-          <p className="text-lg prose-gray text-wrap mt-2">
+          <p className="md:text-lg prose-gray text-wrap mt-2">
             Simple app to generate mock tests and papers for students and
             teachers
           </p>

@@ -1,3 +1,4 @@
+import Navbar from '@/components/navbar';
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import { ClerkProvider } from '@clerk/nextjs';
 import { ConfigProvider } from 'antd';
@@ -29,6 +30,7 @@ export default function RootLayout({
                 },
               }}
             >
+              <Navbar />
               {children}
             </ConfigProvider>
           </AntdRegistry>
